@@ -1,0 +1,222 @@
+
+/*GENERAL BODY STYLING*/
+body {
+    background-color: #fff;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+
+
+/*FONT STYLING ALL PARAGRAPH TAGS */
+p {
+  font-weight: light;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;  
+}
+
+
+
+/*FONT STYLE FOR ALL PLACEHOLDERS*/
+input#Full-Name, input#Email-address, input#Phone-Number, input#Name-on-card {
+    font-style: oblique;
+}
+
+
+
+/*CUSTOM STYLING THREE DIVS CONTAINING SEPERATE FORMS*/
+
+.overall-form-styles-1, .overall-form-styles-2, .overall-form-styles-3 {
+    border-style: solid; 
+    border-color: #A09F57; 
+    border-width: thick; 
+    border-radius: 4px; 
+    padding-right: 3.5rem; 
+    margin-right: 2rem; 
+    padding-left: 2rem; 
+    margin-left: 2rem; 
+}
+
+
+.overall-form-styles-3 {
+    padding-right: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.overall-form-styles-1 {
+   margin-top: 2rem;
+}
+
+
+.overall-form-styles-1, .overall-form-styles-2 {
+    margin-bottom: .1rem;
+}
+
+
+
+
+/*ALL SPACING FOR LABEL CONTAINERS*/
+
+.first-header-label {
+  margin-right: 65px;
+}
+
+.first-main-label, .first-footer-label {
+  margin-right: 58px;
+}
+
+.second-header-label {
+  margin-right: 42px;
+  position: relative;
+  bottom: 29px;
+}
+
+.second-main-label {
+  margin-right: 29px;
+}
+
+.second-footer-label {
+  margin-right: 42.5px;
+}
+
+.third-header-label {
+  margin-right: 14px;
+}
+
+.third-footer-label {
+  margin-right: 7.4px;
+}
+
+
+
+/*STYLING FOR ALL INPUT CONTAINERS*/
+
+.first-header-input, .first-main-input, .first-footer-input, .second-header-input, 
+.second-main-input, .second-footer-input, .third-header-input, .third-main-input, 
+.third-footer-input {
+width: 12rem;
+height: 2rem;
+border: #66806A;
+border-radius: 2px;
+padding-left: 3px;
+font-size: 10px;
+}
+
+.second-header-input {
+  width: 12rem;
+  height: 3.5rem;
+}
+
+
+
+
+
+/*STYLING FOR ALL SECTION CONTAINERS*/
+
+section {
+  border-style: solid;
+  border-color: #A09F57;
+  border-width: thick;
+  border-radius: 4px;
+}
+
+
+.first-section, .second-section, .third-section, .fifth-section, 
+.sixth-section, .seventh-section, .eight-section, .ninth-section {
+  height: 2.1rem;
+  padding-left: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  min-width: 20rem;
+  margin-bottom: .1rem;
+}
+
+.icon-section {
+  text-align: center;
+  word-spacing: .5px;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: .5rem;
+  border-style: solid;
+  border-color: #A09F57;
+  border: transparent;
+  border-width: thick;
+  border-radius: 4px;
+}
+
+.icon-section-container {
+  border-width: 2px solid;
+  border-color: #A09F57;
+  height: 4.5rem;
+  min-width: 20.5rem;
+  margin-bottom: .1rem;
+}
+
+.icon-section-container h5 {
+  padding-left: .5rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.icon-label {
+  font-weight: bolder;
+}
+
+.fourth-section {
+  height: 4rem;
+  min-width: 20rem;
+  padding-left: .5rem;
+  padding-top: .5rem;
+  margin-bottom: .1rem;
+}
+
+
+
+/*THE LARGEST CONTAINER FOR THE THREE FORMS*/
+
+.largest-container {
+  margin: 12rem 60% 22% 33%;
+  background-color: #F3C892;
+  width: 38%;
+  height: 61.5rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #66806A;
+  border-width: thin;
+}
+
+
+/*FONT AWESOME COLORING FOR BACKGROUND: NOT VERY VISIBLE ON FORM THOUGH 😅*/
+.small-icon-styles {
+  background: #ffffff;
+}
+
+
+
+
+/*FINALLY!, BUTTON STYLING*/
+
+.button-styles {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #fff;
+  font-size: .6rem;
+  font-weight: bolder;
+  background-color: #A09F57;
+  padding: 2px 4px;
+  margin-top: .5rem;
+  margin-left: 8.6rem;
+  border: transparent;
+}
+
+
+.button-styles:hover {
+  background-color: #9DAD7F;
+}
+
+
+
+/*THANK YOU*/
